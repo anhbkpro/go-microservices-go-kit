@@ -4,6 +4,8 @@ import (
 	"database/sql"
 	"github.com/anhbkpro/go-microservices-go-kit/src/api/entities"
 	"log"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 type MariaDBAgentsRepository struct {
@@ -11,7 +13,7 @@ type MariaDBAgentsRepository struct {
 }
 
 func NewMariaDBAgentsRepository() *MariaDBAgentsRepository {
-	db, err := sql.Open("mysql", "root:root-password@tcp(agents-mariadb:3306)/managers?parseTime=true")
+	db, err := sql.Open("mysql", "root:Password123!@tcp(localhost:3306)/agentsdb?parseTime=true")
 	if err != nil {
 		log.Fatal(err)
 	}
