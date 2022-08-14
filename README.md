@@ -1,1 +1,0 @@
-# go-microservices-go-kit
