@@ -6,7 +6,7 @@
 - *Issue*: Running this code on Mac M1, I do not find a way to run `dockerx` on docker-compose, and connection issue to the database and run `CMD
 to run Go service via Docker image. So I run service from code directly, create MariaDB using below steps:
 
-[Update 1]: Now I can create database via docker-compose:
+- [Update 1]: Now I can create database via docker-compose:
 <img width="1871" alt="image" src="https://user-images.githubusercontent.com/2937629/184545475-b9d6e340-5dfc-4705-8c31-53bee45b5dcf.png">
 
 
