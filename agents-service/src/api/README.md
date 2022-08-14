@@ -7,7 +7,7 @@
 to run Go service via Docker image. So I run service from code directly, create MariaDB using below steps:
 
 - [Update 1]: Now I can create database via docker-compose:
-<img width="1871" alt="image" src="https://user-images.githubusercontent.com/2937629/184545475-b9d6e340-5dfc-4705-8c31-53bee45b5dcf.png">
+  <img width="1871" alt="image" src="https://user-images.githubusercontent.com/2937629/184545475-b9d6e340-5dfc-4705-8c31-53bee45b5dcf.png">
 
 
 - Create [MariaDB](https://mariadb.com/resources/blog/get-started-with-mariadb-using-docker-in-3-steps/#:~:text=Execute%20the%20following%20to%20connect,mariadb%20%2D%2Duser%20root%20%2DpPassword123!&text=And%20that's%20it!,start%20using%20(querying)%20MariaDB.):
